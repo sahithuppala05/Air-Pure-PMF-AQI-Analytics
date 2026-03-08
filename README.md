@@ -1,6 +1,6 @@
 # Air-Pure-PMF-AQI-Analytics
 
-This project was created for the **Codebasics Air Quality Challenge** and uses real-world AQI, health, and behavioral data to design a region-specific, data-driven product and go-to-market strategy for an air purifier brand.
+This project uses real-world AQI, health, and behavioral data to design a region-specific, data-driven product and go-to-market strategy for an air purifier brand.
 
 ## Link of [Power BI Report](https://app.powerbi.com/view?r=eyJrIjoiYzNjMTJjZWQtM2JkMy00MWQ1LWIxMWQtNzE4YzQxNGY4OTU0IiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)
  
