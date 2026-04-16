@@ -1,72 +1,145 @@
-# Air-Pure-PMF-AQI-Analytics
-
-This project uses real-world AQI, health, and behavioral data to design a region-specific, data-driven product and go-to-market strategy for an air purifier brand.
-
-## Link of [Power BI Report](https://app.powerbi.com/view?r=eyJrIjoiYzNjMTJjZWQtM2JkMy00MWQ1LWIxMWQtNzE4YzQxNGY4OTU0IiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)
- 
-
-<img width="1520" height="858" alt="Image" src="https://github.com/user-attachments/assets/57052bae-abe6-428f-9fa4-95ecd2f9503c" />
+# 🌍 Air Quality & Public Health Analysis in India
 
 ## 📌 Project Overview
+This project analyzes air quality (AQI), disease patterns, and EV adoption across Indian states to understand environmental and public health relationships.
 
-India faces one of the highest air pollution levels globally. But pollution isn’t uniform — every city, every region has a unique pollution profile.
-
-This project explores:
-- Where air quality is the worst
-- Who is most affected
-- Which pollutants dominate in each region
-- Whether government policies and EVs are helping
-- And how to build & market a purifier accordingly
+The goal is to uncover:
+- Pollution trends across regions and time
+- Impact of air quality on public health
+- Effect of EV adoption on improving air quality
 
 ---
 
-## 📊 Dashboard Features (Built in Power BI)
-
-- **Page 1: Monthly View**  
-  Compare AQI patterns across cities, weekdays vs weekends, pollutant types, and severity categories.
-  <img width="1196" height="744" alt="Image" src="https://github.com/user-attachments/assets/61b8ea23-2c5e-4fbb-ba92-25ef4979d7fd" />
-
-- **Page 2: Consolidated View**  
-  6-month analysis of AQI by city, worst months, and pollution composition by state.
-  <img width="1211" height="739" alt="Image" src="https://github.com/user-attachments/assets/2b520a86-6e42-433c-9972-9c6eafa70a86" />
-
-- **Page 3: Marketing View**  
-  Health impact by age group, EV adoption vs AQI, city scoring (AQI × Population × Income), Google Trends analysis.
-  <img width="1182" height="752" alt="Image" src="https://github.com/user-attachments/assets/5d2f2177-dbd7-436c-98ae-12d08c33b29c" />
-
-- **Page 4: Executive Summary**  
-  Strategic KPIs, competitive landscape, filter recommendation per region, policy impact, and roadmap.
-  <img width="1097" height="743" alt="Image" src="https://github.com/user-attachments/assets/f8fceb4a-113a-4819-844d-07ee6bb700bf" />
+## 🛠️ Tech Stack
+- **Python (Pandas)** → Data cleaning & preprocessing  
+- **MySQL** → Data storage & SQL analysis  
+- **Power BI** → Dashboard & visualization  
 
 ---
 
-## 💡 Key Insights
-
-- **Delhi, Byrnihat, Gurugram**: Highest AQI zones — priority markets  
-- **South India**: PM10 & SO2 dominant → Chemical scrubbers needed  
-- **Health Impact**: Children & working adults most affected  
-- **Behavioral Trends**: Purifier searches spike 600% during AQI 300+  
-- **ROI**: A ₹25K purifier can save ₹50K in asthma treatment costs  
-- **Competitor Gaps**: No regional customization, smart syncing, or health dashboards  
-- **EV ≠ Solution**: High EV adoption hasn’t reduced AQI in top cities
-
-  <img width="411" height="581" alt="Image" src="https://github.com/user-attachments/assets/5800550b-e606-475a-937e-8cb8c33afdb3" />
+## 📂 Datasets Used
+- AQI Data (Air Quality Index)
+- Disease Data (state-wise disease cases)
+- Vehicle Data (EV adoption)
+- Population Data (optional reference)
 
 ---
 
-## 🔗 External Data Sources
+## 🔄 Project Workflow
 
-- [Google Trends](https://trends.google.com/) – Search spikes for “air purifier”  
-- [NASA FIRMS](https://firms.modaps.eosdis.nasa.gov/) – Crop-burning satellite imagery  
-- WHO + India Air Pollution Health Reports  
-- Government policy timelines (BS-VI, Odd-Even, etc.)
+### 1. Data Cleaning (Python)
+- Handled missing values  
+- Standardized column names  
+- Removed duplicates  
+- Converted data types  
 
 ---
 
-## 🧠 Tools & Skills Used
+### 2. Data Storage (MySQL)
+- Imported cleaned datasets into MySQL  
+- Created structured tables:
+  - `aqi_data`
+  - `disease_data`
+  - `vehicle_data`
+  - `population_data`
 
-- Power BI (Data Modeling, DAX, Drillthrough, Bookmarks)
-- Excel (Cleaning, Pre-processing)
-- Google Trends & Satellite Data Integration
-- Storytelling + Product Strategy
-- Data-Driven Innovation Roadmap
+---
+
+### 3. Data Analysis (SQL)
+Performed analysis for:
+- Top & least polluted areas  
+- Pollutant trends  
+- Weekend vs weekday AQI  
+- Monthly AQI patterns  
+- Disease vs AQI correlation  
+- EV adoption vs AQI  
+
+---
+
+### 4. Visualization (Power BI)
+Built an interactive dashboard covering:
+
+---
+
+## 📊 Key Insights
+
+### 🔹 1. Pollution Overview
+- Identified top 5 most polluted and least polluted areas  
+- Clear variation across regions  
+
+---
+
+### 🔹 2. Monthly AQI Trends
+- AQI peaks during winter months (Nov–Jan)  
+- Lowest during monsoon period  
+
+---
+
+### 🔹 3. Weekend vs Weekday Analysis
+- Minimal AQI difference  
+- Pollution not solely dependent on weekday activities  
+
+---
+
+### 🔹 4. AQI Category Distribution (Bengaluru)
+- Majority days fall under **Satisfactory** category  
+- Very few “Good” days  
+
+---
+
+### 🔹 5. Health Impact (Q6)
+- High disease cases observed across multiple states  
+- States with higher AQI (e.g., Bihar, UP) show elevated health risks  
+- Disease patterns influenced by multiple factors (not AQI alone)
+
+---
+
+### 🔹 6. EV Adoption vs AQI (Q7)
+- States with higher EV adoption tend to have relatively better AQI  
+- However, EV adoption alone is not sufficient to fully reduce pollution  
+
+---
+
+## 🎯 Key Conclusion
+
+- Air pollution shows **regional and seasonal variation**  
+- Public health is influenced by **multiple environmental and social factors**  
+- EV adoption contributes to better air quality but is **not the only solution**  
+
+---
+
+## 📈 Dashboard Features
+- Interactive charts (bar, line, donut, table)  
+- Multi-level insights (trend, comparison, impact)  
+- Clean and structured layout  
+
+---
+
+## 🚀 How to Run
+
+1. Clean datasets using Python  
+2. Import into MySQL  
+3. Run SQL queries for analysis  
+4. Connect Power BI to MySQL  
+5. Build visuals and dashboard  
+
+---
+
+## 💡 Future Improvements
+- Add real-time AQI data  
+- Include weather factors (temperature, humidity)  
+- Apply machine learning for AQI prediction  
+
+---
+
+## 👤 Author
+**Sahith**
+
+---
+
+## ⭐ Acknowledgment
+This project demonstrates end-to-end data analysis including:
+- Data Cleaning  
+- SQL Analysis  
+- Business Insights  
+- Dashboard Visualization  
