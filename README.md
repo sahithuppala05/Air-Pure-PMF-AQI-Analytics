@@ -1,5 +1,7 @@
 # 🌍 Air-Pure-PMF-AQI-Analytics
+## 🖼️ Dashboard Preview
 
+![AQI Dashboard](Assets/Power_BI%20Insights%20(1)_page-0001.jpg)
 ## 📌 Project Overview
 Air-Pure-PMF-AQI-Analytics is an end-to-end data analytics project that explores the relationship between air quality (AQI), public health, and electric vehicle (EV) adoption across India.
 
