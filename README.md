@@ -243,6 +243,7 @@ git clone https://github.com/yourusername/AirPure-Innovations-Dashboard.git
 
 - 💼 LinkedIn: *(Add your LinkedIn URL)*
 - 💻 GitHub: *(Add your GitHub URL)*
+- 📊 Power BI Dashboard: https://app.powerbi.com/groups/me/reports/92839719-5185-485f-8916-c0365603a470/86a8a6dde90e5511857a?experience=power-bi
 
 ---
 
