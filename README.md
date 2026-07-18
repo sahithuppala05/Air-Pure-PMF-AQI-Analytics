@@ -175,31 +175,36 @@ This project integrates four datasets:
 
 ## 🏠 Cover Page
 
-> *Add Screenshot Here*
+> <img width="1327" height="745" alt="Screenshot 2026-07-18 172857" src="https://github.com/user-attachments/assets/f7629be8-e13e-4e9e-ae87-d54f2dee581e" />
+
 
 ---
 
 ## 🌬️ Air Quality Analytics
 
-> *Add Screenshot Here*
+> <img width="1333" height="743" alt="Screenshot 2026-07-18 172922" src="https://github.com/user-attachments/assets/42771778-fa4c-432e-ad62-6ffee70d71b5" />
+
 
 ---
 
 ## 🏥 Disease Analytics
 
-> *Add Screenshot Here*
+> <img width="1307" height="732" alt="Screenshot 2026-07-18 172938" src="https://github.com/user-attachments/assets/05f19fa3-8d14-4737-990d-5ffe2987f804" />
+
 
 ---
 
 ## 🚗 Vehicle & EV Analytics
 
-> *Add Screenshot Here*
+> <img width="1311" height="735" alt="Screenshot 2026-07-18 172953" src="https://github.com/user-attachments/assets/28ee5788-6617-4e51-8e2e-a16b805beef6" />
+
 
 ---
 
 ## 👥 Population Analytics
 
-> *Add Screenshot Here*
+> <img width="1307" height="735" alt="Screenshot 2026-07-18 173017" src="https://github.com/user-attachments/assets/64d7ba02-28f9-477a-a399-ff391f63aa9a" />
+
 
 ---
 
